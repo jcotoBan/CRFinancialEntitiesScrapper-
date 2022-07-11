@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" src="style.css">
+    <title>Entidad Financiera</title>
+    <style>
+      table, th, td {
+        border: 1px solid;
+      }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form method="POST" action="{{ url_for('dashboard') }}">
+          <p>Elija una entidad financiera</p><SELECT name="entidad">
+            {% for entidad in entidadList %}
+            <OPTION value="{{entidad}}">{{entidad}}</option>
+              {% endfor %}
+            </SELECT>
+            <button type="submit" class="btn btn-default">Go</button>
+          </form>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          {% if entidadSingleList==NULL %}
+          {% else %}
+          <h1>{{entidadSingleList[0]}}</h1>
+          {% endif %}
+          <table>
+            <tr>
+              <th>Compra</th>
+              <th>Venta</th>
+              <th>Diferencial Cambiario</th>
+              <th>Ultima Actualizacion</th>
+            </tr>
+            <tr>
+              {% if entidadSingleList==NULL %}
+              {% else %}
+              <td>₡{{entidadSingleList[1]}}</td>
+              <td>₡{{entidadSingleList[2]}}</td>
+              <td>₡{{entidadSingleList[3]}}</td>
+              <td>{{entidadSingleList[4]}}</td>
+              {% endif %}
+          </table>
+
+    </div>
+</body>
+</html>
