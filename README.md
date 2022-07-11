@@ -44,6 +44,6 @@ Make sure you change your host to your remote host or localhost depending on whe
 
 
 
-3-If everything went accordingly you can go to http://yourIPorLocalhost:5000:/dashboard and start using it:
+4-If everything went accordingly you can go to http://yourIPorLocalhost:5000:/dashboard and start using it:
 
 
