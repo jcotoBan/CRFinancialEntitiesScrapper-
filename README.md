@@ -25,7 +25,7 @@ Project packages:
 -->html5lib: 1.1
 
 
-Steps to get it up and running
+#Steps to get it up and running
 
 1-Once you have setup python, pip and virtualenv just move this folder to the virtualenv folder you created. 
 
