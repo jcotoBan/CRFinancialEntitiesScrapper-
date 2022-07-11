@@ -27,7 +27,9 @@ Project packages:
 
 # Steps to get it up and running
 
-1-Once you have setup python, pip and virtualenv just move this folder to the virtualenv folder you created. 
+1-Once you have setup python, pip and virtualenv just move this folder to the virtualenv folder you created:
+
+[1](jcotoBan.github.com/CRFinancialEntitiesScrapper-/imgs/1.jpg)
 
 2-Check for the following code on line 37:
 
