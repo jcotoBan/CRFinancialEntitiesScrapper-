@@ -44,8 +44,13 @@ Make sure you change your host to your remote host or localhost depending on whe
 
 3-Either run bancoEndpoint.py file on foreground, or background:
 
+![](imgs/3.0.jpg)
+
+or
+
+![](imgs/3.1jpg)
 
 
 4-If everything went accordingly you can go to http://yourIPorLocalhost:5000:/dashboard and start using it:
 
-
+![](imgs/4.jpg)
