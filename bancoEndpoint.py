@@ -24,7 +24,6 @@ def dashboard():
         entidadList=getEntidadLista()
         entidad = request.values.get('entidad')
         entidadSingleList = getEntidadInfo(entidad)
-        print(entidad)
         return render_template("dashboard.html",entidadList=entidadList, entidadSingleList=entidadSingleList)
 
 
