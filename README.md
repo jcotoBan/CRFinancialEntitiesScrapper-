@@ -31,8 +31,11 @@ Steps to get it up and running
 
 2-Check for the following code on line 37:
 
+```
+
 if __name__ == '__main__':
-    app.run(host='139.144.35.12', port=5000, debug=True)  # run our Flask app
+    app.run(host='139.144.35.12', port=5000, debug=True)  # run our Flask app 
+```
     
 Make sure you change your host to your remote host or localhost depending on where you are hosting this project. You can turn off debuging, change the port, etc.
 
