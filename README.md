@@ -19,7 +19,6 @@ Project packages:
 
 -->Flask: 2.1.2
 -->BeautifulSoup4: 4.11.1 
--->flask_restful: 0.3.9
 -->pandas: 1.4.3
 -->lxml: 4.9.1
 -->html5lib: 1.1
