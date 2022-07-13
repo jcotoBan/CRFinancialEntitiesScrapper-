@@ -53,3 +53,23 @@ or
 4-If everything went accordingly you can go to http://yourIPorLocalhost:5000:/dashboard and start using it:
 
 ![](imgs/4.jpg)
+
+
+
+# Running on docker
+
+Some docker/kubernetes files were added in order to deploy the app through docker/kubernetes
+
+dockerLocal folder: Contains a Dockerfile to initiate a basic instance with access to bash with the linode-CLI installed, in case you want to manage a kubernetes cluster through the linode service.
+
+https://www.linode.com/lp/free-credit-short/?promo=sitelin100&promo_value=100&promo_length=60&utm_source=google&utm_medium=cpc&utm_campaign=11178784468_109179199843&utm_term=g_kwd-4269612793_p_linode&utm_content=466889242756&locationid=9070296&device=c_c&gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtUnFlziTtXwXbFEkP4fl_Ozj1mxx6iiYmHFvVMTFCrMi_S8A4NLF-RoCXOsQAvD_BwE
+
+docker: Dockerfile to setup the app so that you can check it and built it yourself, however i have uploaded an image to hub.docker.com and you can pull it if you want:
+
+https://hub.docker.com/r/koton00beng/bankscrapper-python
+
+
+![](imgs/docker.jpg)
+
+
+kubernetes: A simple service.yaml and deployment.yaml that you can use to set a kubernetes cluster with the app.
