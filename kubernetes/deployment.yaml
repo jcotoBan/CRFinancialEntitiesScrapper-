@@ -1,0 +1,23 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bankscrapper-deploy
+  labels:
+    app: bankscrapper
+spec:
+  selector:
+    matchLabels:
+      app: bankscrapper
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: bankscrapper
+    spec:
+      containers:
+      - name: bankscrapper
+        image: koton00beng/bankscrapper-python
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000

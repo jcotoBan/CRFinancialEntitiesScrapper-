@@ -1,0 +1,5 @@
+Flask
+BeautifulSoup4
+pandas
+lxml
+html5lib
